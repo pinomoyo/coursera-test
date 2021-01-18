@@ -1,0 +1,30 @@
+body{
+		font-family: Sans-serif;
+	}
+
+	/*p{
+		color: red;
+		width: 800px;
+		font-size: 20px;
+	}*/
+	
+	/*Descendent*/
+	header li{
+		list-style: none;
+		text-align: center;
+		border: 2px solid red;
+		background-color: cyan;
+		margin-bottom: 2px;
+		width: 300px;
+	}
+
+/*good practice to combine these two || are also called pseudo classes */
+	a:link, a:visited{
+		text-decoration: none;
+		color: 
+	}
+
+	a:hover, a:active{
+		background-color: black;
+		color: white;
+	}
